@@ -1,3 +1,4 @@
 Questo è un file di prova per vedere come funziona git.
 Seconda riga
+
 Quarta riga. La terza è vuota.
