@@ -153,7 +153,7 @@ def cmdinfo(args):
 	if args.untranslated:
 		s = ''
 		for i in f.untranslated_entries(): s+="%s\n\n" %i.msgid
-		print s
+		print s.encode("cp850", "replace")
 	
 
 def cmdmerge(args):
@@ -213,9 +213,9 @@ if __name__ == '__main__':
 	help="Show info about file.")
 	parser.add_argument("-b", "--backup", action="store_true",
 	help="Create a backup (.bak) copy of the input file.")
+	parser.add_argument("-f", "--fuzzy", action="store_true",
+	help = "Show fuzzy strings.")
 	parser.add_argument("-u", "--untranslated", action="store_true",
-	help = "Show untranslated strings.")
-	parser.add_argument("-z", "--fuzzy", action="store_true",
 	help = "Show untranslated strings.")
 	parser.add_argument("-o","--output", default="default",
 	help="Specify an output filename, if not specified the script assign a default filename inherited by input filename.")

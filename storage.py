@@ -66,3 +66,6 @@ def json2pickle(filename):
 	b.update(a.get())
 	b.save()
 	
+	
+if __name__=='__main__':
+	print "ciao"
