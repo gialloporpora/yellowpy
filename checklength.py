@@ -34,9 +34,9 @@ if __name__ == "__main__":
 		nc1 = len(i.msgid)
 		nc2 = len(i.msgstr)
 		s+= u"# Originale: %d caratteri, traduzione: %d caratteri, differenza: %+d caratteri\n" %(nc1, nc2, nc2-nc1)
-		if nc2 < nc1: s+= "# Avviso: la traduzione è più corta dell'originale\n"
+		if nc2 < nc1: s+= u"# Avviso: la traduzione Ã¨ piÃ¹ corta dell'originale\n"
 		if nc2 > getLimit(nc1, args.limit): s+= u"# Errore: limite superato\n"
-		s+= u";%s,\n%s\n\n\n" %(i.msgid, i.msgstr)
+		s+= u";%s\n%s\n\n\n" %(i.msgid, i.msgstr)
 	outf.write(s.encode("utf-8"))
 	outf.close()
 	

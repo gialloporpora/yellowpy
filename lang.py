@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 from sys import stdout
 
 class msgmarker(object):
@@ -146,7 +147,7 @@ class langFile(list):
 	
 	
 	def save(self):
-		f = open(self._name, "w")
+		f = open(self._name, "wb")
 		f.write("\n".join(self._list).encode("utf-8"))
 		f.close()
 		
