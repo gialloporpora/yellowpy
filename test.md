@@ -262,9 +262,9 @@ Di default vengono associati degli `id` agli header mettendo il loro testo tutto
 
 Per inserire un'immagine usare:
 
-	![Logo di Firefox](https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Mozilla_Firefox_logo_2013.svg/100px-Mozilla_Firefox_logo_2013.svg.png![)
+	![Logo di Firefox](https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Mozilla_Firefox_logo_2013.svg/100px-Mozilla_Firefox_logo_2013.svg.png!)
 
-![Logo di Firefox](https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Mozilla_Firefox_logo_2013.svg/100px-Mozilla_Firefox_logo_2013.svg.png![)
+![Logo di Firefox](https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Mozilla_Firefox_logo_2013.svg/100px-Mozilla_Firefox_logo_2013.svg.png!)
 
 Il testo racchiuso tra parentesi quadre è il testo alternativo per l'accessibilità.
 come per i link, anche con le immagini si può usare la notazione per riferimento per indicare il link.
