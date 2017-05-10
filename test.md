@@ -8,7 +8,7 @@ Il *markdown* è uno pseudo-linguaggio creato da [John Gruber][jg] e [Aaron Swar
 
 Non avendo una vera standardizzazione come l’HTML, il *markdown* ha visto nel tempo la nascita di diverse estensioni in specifiche piattaforme, senza che però queste estensioni siano adottati da tutti.
 
-Il *markdown* che si usa su  GitHub, denominato **GitHub Flavored Markdown* (GFM, è abbastanza minimale, ad esempio non consente le note a piè pagina, l’inserimento di codice LaTeX, inserimento di testo apice o pedice e molte altre estensioni che sono supportate in altre piattaforme.
+Il *markdown* che si usa su  GitHub, denominato *GitHub Flavored Markdown* (GFM, è abbastanza minimale, ad esempio non consente le note a piè pagina, l’inserimento di codice LaTeX, inserimento di testo apice o pedice e molte altre estensioni che sono supportate in altre piattaforme.
 
 
 
