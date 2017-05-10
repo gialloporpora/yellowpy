@@ -58,11 +58,16 @@ Era una luminosa e fredda giornata d'aprile, e gli orologi battevano tredici col
 
 Si quota come nelle email in puro testo, col carattere maggiore:
 
-	>   Era una luminosa e fredda giornata d'aprile, e gli orologi battevano tredici colpi.
-	>   *Winston Smith*, tentando di evitare le terribili raffiche di vento col mento affondato nel petto, scivolò in fretta dietro le porte di vetro degli Appartamenti *Vittoria*: non così in fretta, tuttavia, da impedire che una folata di polvere sabbiosa entrasse con lui.
+	>   Tutta la nostra scienza, in confronto con la realtà, è primitiva e infantile, e tuttavia è la cosa più preziosa che abbiamo.
+	
+	—**Albert Einstein** (1879-1955)
 
->   Era una luminosa e fredda giornata d'aprile, e gli orologi battevano tredici colpi.
->   *Winston Smith*, tentando di evitare le terribili raffiche di vento col mento affondato nel petto, scivolò in fretta dietro le porte di vetro degli Appartamenti *Vittoria*: non così in fretta, tuttavia, da impedire che una folata di polvere sabbiosa entrasse con lui.
+>   Tutta la nostra scienza, in confronto con la realtà, è primitiva e infantile, e tuttavia è la cosa più preziosa che abbiamo.
+
+—**Albert Einstein** (1879-1955)
+
+
+
 
 Gli spazi dopo il maggiore non vengono considerati, però usare la regola del 4, cioé allineare tutto con 4 caratteri iniziali (il carattere sintattico e 3 spazi rende il codice più leggibile e semplifica con quotazioni e liste annidate).
 
@@ -148,6 +153,17 @@ Per gli elenchi puntati si può utilizzare, indifferentemente il trattino, l'ast
 +   Pere
 +   arance
 
+Sono possibili anche gli elnchi numerati:
+
+1.  Mele
+	2.  Pere
+	3.  Arance
+	
+1.  Mele
+2.  Pere
+3.  Arance
+
+È possibile anche inserire liste annidate su più livelli:
 
 
 
@@ -158,9 +174,26 @@ Per gli elenchi puntati si può utilizzare, indifferentemente il trattino, l'ast
 
 
 
+
+
+
+
+
+
+
+
+## Emoji
+
+Al *markdown* di GitHub mancano molte utili estensioni di altri *markdown*, però in compenso supporta le *emoji*.
+
+Tyger :tiger: ! Tyger :tiger: ! Burning bright
+In the forests of the night:
+What immortal hand or eye
+Could frame thy fearful symmetry?
 
 
 
 [as]: https://it.wikipedia.org/wiki/Aaron_Swartz
 [jg]: https://daringfireball.net/
+[emoji]: https://www.webpagefx.com/tools/emoji-cheat-sheet/
 
